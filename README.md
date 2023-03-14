@@ -6,11 +6,12 @@ For this project, I used Python and the Pandas library to clean the dataset. I u
 
 # Files
 The repository includes the following files:
-
-* fifa2021_raw.csv: The original dataset downloaded from Kaggle.
-* fifa2021_cleaned.csv: The cleaned dataset produced as part of this project.
-* fifa2021_data_cleaning.ipynb: A Jupyter notebook containing the Python code used to clean the dataset.
+* fifa21 raw data v2.csv: The original dataset downloaded from Kaggle.
+* Cleaned FIFA 2021 data.csv: The cleaned dataset produced as part of this project.
+* fifa data dictionary.txt: The file explaining the information in the raw data.
+* DataCleaning Challenge.ipynb: A Jupyter notebook containing the Python code used to clean the dataset.
 * README.md: This README file.
+
 # Cleaning Steps
 The cleaning process involved several steps, including:
 
@@ -19,5 +20,6 @@ The cleaning process involved several steps, including:
 * Converting the 'Hits' column to a numeric data type and filling missing values with zeros.
 * Sorting contract data into three separate columns: contract start date, contract end date, and contract type.
 * Renaming some columns for clarity and consistency.
+
 # Conclusion
 This project allowed me to practice my data cleaning skills using Python and Pandas. I really thank the organisers of this challenge for this opportunity. The cleaned dataset can be used for further analysis and modeling.
